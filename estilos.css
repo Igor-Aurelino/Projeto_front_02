@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-thin-chubby/css/uicons-thin-chubby.css');
+:root{
+
+--Texto_escuro: #14183E;
+--Azul: #4372EB;
+--Cinza_claro: #9A9EA6;
+}
+body{
+    font-family:"Plus Jakarta Sans";
+    margin: 0px;
+     border: 1px solid var(--Cinza_claro);
+}
+span{
+    color: var(--Azul);
+}
+#logo {
+    height: 70px;
+    width: 11px;
+    padding-left: 5%;
+    margin-top: 20px;
+}
+#user{
+    padding-left: 80%;
+    margin-top: -45px;
+}
+#user img{
+    background-color: var(--Azul);
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+}
+#texto1{
+    font-size: 12px;
+    padding-left: 20%;
+    margin-top: -60px;
+}
+#topo2{
+    font-size: 30px;
+    color: var(--Texto_escuro);
+    display: flex;
+    justify-content: center;
+   
+    margin: 150px;
+    line-height: 90px;
+}
+#topo2 p{
+    line-height: 25px; 
+    font-size: 15px;
+}
+#img_viajante{
+   margin-top: -40px;
+}
+#cadastrar{
+    background-color: var(--Azul);
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+#botao img{
+    margin: -25px;
+    margin-left: 17px;
+}
+#funciona{
+   margin: 25px;
+   font-size: 20px;
+}
