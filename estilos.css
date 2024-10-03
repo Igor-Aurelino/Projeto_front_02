@@ -63,6 +63,75 @@ span{
     margin-left: 17px;
 }
 #funciona{
+color: var(--Cinza_claro);
    margin: 25px;
    font-size: 20px;
+}
+#topo3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    margin-top: -15%;
+    padding-bottom: 10%;
+}
+#topo4 h1{
+    font-size: 20px;
+    padding-left: 10%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+#topo4 img{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+#topo4 h2{
+    color: var(--Texto_escuro);
+    font-size: 35px;
+    margin-left: 15%;
+    margin-top: -4%;
+    padding-bottom: 10%;
+}
+#topo5{
+    display: flex;
+    width: 100%;
+    margin-top: -8%;
+}
+#destino1 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 50%;
+    border-radius: 10px;
+}
+#textod1 h1{
+    position: relative;
+    background: rgba(203, 196, 196, 0.801);
+    border: 0px 5px 5px 10px;
+    margin-top: -20%;
+    font-size: 15px;
+    margin-left: 50%;
+    text-align: center;
+    
+}
+#textod1 span{
+    color: var(--Cinza_claro);
+}
+#destino2 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 60%;
+    border-radius: 10px;
+}
+#destino3 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 70%;
+    border-radius: 10px;
+}
+#destino4 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 80%;
+    border-radius: 10px;
 }
