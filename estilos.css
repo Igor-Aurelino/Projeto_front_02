@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-thin-chubby/css/uicons-thin-chubby.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 :root{
 
 --Texto_escuro: #14183E;
@@ -97,6 +97,7 @@ color: var(--Cinza_claro);
     display: flex;
     width: 100%;
     margin-top: -8%;
+    padding-bottom: 10%;
 }
 #destino1 img{
     width: 300px;
@@ -106,13 +107,12 @@ color: var(--Cinza_claro);
 }
 #textod1 h1{
     position: relative;
-    background: rgba(203, 196, 196, 0.801);
-    border: 0px 5px 5px 10px;
+    background: rgba(255, 255, 255, 0.801);
     margin-top: -20%;
-    font-size: 15px;
+    font-size: 14px;
+    padding-bottom: 3%;
     margin-left: 50%;
-    text-align: center;
-    
+    text-align: center; 
 }
 #textod1 span{
     color: var(--Cinza_claro);
@@ -135,3 +135,113 @@ color: var(--Cinza_claro);
     margin-left: 80%;
     border-radius: 10px;
 }
+#textod2 h1{
+    position: relative;
+    background: rgba(255, 255, 255, 0.801);
+    margin-top: -20%;
+    padding-bottom: 1%;
+    font-size: 14px;
+    margin-left: 60%;
+    padding-left: 7%;
+}
+#textod2 span{
+    color: var(--Cinza_claro);
+}
+#textod3 h1{
+    position: relative;
+    background: rgba(255, 255, 255, 0.801);
+    margin-top: -20%;
+    font-size: 15px;
+    margin-left: 70%;
+    padding-right: 38%;
+    padding-left:8%;
+    padding-bottom: 7%;
+    padding-top: 3% ;
+    text-align: center;
+}
+#textod3 span{
+    color: var(--Cinza_claro);
+}
+#textod4 h1{
+    position: relative;
+    background: rgba(255, 255, 255, 0.801);
+    margin-top: -20%;
+    font-size: 15px;
+    margin-left: 80%;
+    padding-right: 38%;
+    padding-left:8%;
+    padding-bottom: 7%;
+    padding-top: 3% ;
+    text-align: center;
+}
+#textod4 span{
+    color: var(--Cinza_claro);
+}
+#topo6 h1{
+    font-size: 20px;
+    padding-left: 10%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+#topo6 h2{
+    color: var(--Texto_escuro);
+    margin-left: 10%;
+    font-size: 50px;
+    margin-top: 0px;
+}
+.cx_icone{
+    background-color: rgba(186, 166, 96, 0.509);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10%;
+    text-align: center;
+    line-height: 50px;
+}
+#textcx1 h1{
+    margin-left: 5%;
+    margin-top: -55px;
+    color: var(--Texto_escuro);
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+#textcx1 p{
+    margin-left: 15%;
+    margin-top: -10px;
+}
+#imag_res{
+    margin-top: -40%;
+    margin-left: 50%;
+}
+#topo7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#topo7 h1{
+    font-size: 20px;
+}
+#topo7 h2{
+    color: var(--Texto_escuro);
+    font-size: 60px;
+    margin-top: 0px;
+}
+#topo7 p{
+    font-size: 18px;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+#imag_map{
+    padding-bottom: 5%;
+}
+#topo8{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
