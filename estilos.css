@@ -240,8 +240,136 @@ color: var(--Cinza_claro);
 }
 #topo8{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 5%;
+
+}
+.cx_icone2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #babdc3a2;
+    margin-top: 10px;
+}
+#topo8_div1{
+    height: 150px;
+    display: flex;
+    gap: 15px;
+}
+#topo8_div2{
+    height: 150px;
+    display: flex;
+    gap: 15px;
+}
+#topo8_div3{
+    height: 150px;
+    display: flex;
+    gap: 15px;
+}
+#destino h1{
+    font-size: 50px;
+    color: var(--Texto_escuro);
+    margin-left: 10%;
+    margin-top: 0px;
+}
+#destino h2{
+    font-size: 20px;
+    margin-left: 10%;
+}
+#imagens_tp9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    gap: 40px;
+}
+#img1_tp9{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px ;
+    box-shadow: 1px 1px 30px gray;
+}
+#img_cima{
+    background-image: url(imagens/destino4.png);
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0px 0px;
+    
     
 }
-
-
+#txt_baixo p{
+    margin-left: 8%;
+}
+#img2_tp9{
+    background-image: url(imagens/video.png);
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+}
+#tp9_imagem{
+    margin: auto;
+    width: 1300px;
+    height: 200px;
+}
+#tp9{
+    background-image: url(imagens/destino5.png);
+    background-size: cover;
+    width: 1300px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+#h1_topo{
+    color: white;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+#p_tp9{
+    color: white;
+    margin-left: 5%;
+}
+#topo10{
+    border: 1px solid red;
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+}
+#topo10_texto{
+    border: 1px solid red ;
+    text-align: center;
+}
+#topo10_caixas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.medidas_topo10_caixas{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+}
+.medidas_topo10_caixas img{
+    margin-top: 20px;
+    margin-left: 122px;
+}
+#rodape{
+    color: var(--Cinza_claro);
+    width: 100%;
+    height: 700px;
+    margin-left: 10%;
+}
+.conteudos_rodape{
+    width: 33%;
+    height: 250px;
+    color: var(--branco);
+    text-align: left;
+}
+#copyright{
+    text-align: center;
+    color: var(--Cinza_claro);
+}
